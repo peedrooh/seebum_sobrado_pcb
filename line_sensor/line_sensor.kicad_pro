@@ -501,7 +501,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../Solidworks 3D Models/line_sensor.step",
       "svg": "",
       "vrml": ""
     },
