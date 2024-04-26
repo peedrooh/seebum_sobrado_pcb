@@ -5390,6 +5390,12 @@
 		)
 	)
 	(junction
+		(at 184.15 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22ea126e-5b24-4abf-ac85-527878bfde47")
+	)
+	(junction
 		(at 241.3 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5418,6 +5424,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "721341f0-7e0e-4b4b-b415-47ab2c3661f9")
+	)
+	(junction
+		(at 168.91 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d371961-1012-4ade-b5f1-b4a670ece896")
 	)
 	(junction
 		(at 180.34 25.4)
@@ -5636,6 +5648,16 @@
 			(type default)
 		)
 		(uuid "1750b806-9da1-4f70-9f20-f560536fae8d")
+	)
+	(wire
+		(pts
+			(xy 170.18 123.19) (xy 168.91 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19bc30f1-7732-454c-8ea3-2c9c62344a2c")
 	)
 	(wire
 		(pts
@@ -6259,6 +6281,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 123.19) (xy 184.15 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7841b1a4-62ad-4c52-8d61-44858e6fca7e")
+	)
+	(wire
+		(pts
 			(xy 266.7 146.05) (xy 266.7 147.32)
 		)
 		(stroke
@@ -6469,6 +6501,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 123.19) (xy 184.15 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e249008-760b-461b-8931-5a5b7b93ee0d")
+	)
+	(wire
+		(pts
 			(xy 260.35 135.89) (xy 260.35 137.16)
 		)
 		(stroke
@@ -6636,6 +6678,16 @@
 			(type default)
 		)
 		(uuid "c4298198-5c51-457c-8a83-39b29fc18c74")
+	)
+	(wire
+		(pts
+			(xy 168.91 123.19) (xy 168.91 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a4c6b1-7f5a-4a86-a857-f412426bfa47")
 	)
 	(wire
 		(pts
@@ -7257,7 +7309,7 @@
 		)
 		(uuid "0ed875b7-079e-4b70-9ae5-cff9ae65319e")
 	)
-	(label "I2C1_SCL"
+	(label "I2C_SCL"
 		(at 214.63 123.19 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7301,7 +7353,7 @@
 		)
 		(uuid "1a8f2c52-e9c7-4b01-bf83-7b4e1da796cc")
 	)
-	(label "I2C1_SCL"
+	(label "I2C_SCL"
 		(at 182.88 125.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7444,7 +7496,7 @@
 		)
 		(uuid "45ee5db5-2355-4c12-8f3a-a95a9b5dac85")
 	)
-	(label "I2C1_SDA"
+	(label "I2C_SDA"
 		(at 135.89 180.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7543,7 +7595,7 @@
 		)
 		(uuid "59af78cf-e0d2-43c8-9ee0-2b2d4cc9fab5")
 	)
-	(label "I2C1_SDA"
+	(label "I2C_SDA"
 		(at 170.18 125.73 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7851,18 +7903,7 @@
 		)
 		(uuid "c3029eec-1cbb-4b34-a0c5-bf110a6c9e4c")
 	)
-	(label "I2C0_SDA"
-		(at 170.18 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cbaec460-82ac-444a-82d7-371ed37fd818")
-	)
-	(label "I2C1_SCL"
+	(label "I2C_SCL"
 		(at 135.89 182.88 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7873,7 +7914,7 @@
 		)
 		(uuid "cc850ebf-7b59-43e7-8e8e-28943101f7c4")
 	)
-	(label "I2C1_SDA"
+	(label "I2C_SDA"
 		(at 214.63 120.65 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7971,17 +8012,6 @@
 			(justify right bottom)
 		)
 		(uuid "e8aedab2-ba39-4d75-a123-5d2292b292ed")
-	)
-	(label "I2C0_SCL"
-		(at 182.88 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "edaf0460-6d3d-4cc6-99d3-fa91474cb600")
 	)
 	(label "PWMA2"
 		(at 139.7 120.65 180)
