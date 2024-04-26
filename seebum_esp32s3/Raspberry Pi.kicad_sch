@@ -1755,7 +1755,7 @@
 		)
 		(uuid 293679f4-f688-4376-ae91-286e2bf1a8e7)
 	)
-	(text "I2C0"
+	(text "I2C"
 		(exclude_from_sim no)
 		(at 100.838 20.066 0)
 		(effects
@@ -1964,7 +1964,7 @@
 		)
 		(uuid "248f5e8b-4028-45ae-bf8b-73241b599887")
 	)
-	(hierarchical_label "I2C0_SCL"
+	(hierarchical_label "I2C_SCL"
 		(shape input)
 		(at 97.79 25.4 0)
 		(fields_autoplaced yes)
@@ -1976,7 +1976,7 @@
 		)
 		(uuid "450cc905-f63a-48fe-8da9-5512a29f1db9")
 	)
-	(hierarchical_label "I2C0_SDA"
+	(hierarchical_label "I2C_SDA"
 		(shape input)
 		(at 97.79 22.86 0)
 		(fields_autoplaced yes)
