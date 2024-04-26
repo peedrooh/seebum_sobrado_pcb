@@ -23212,7 +23212,7 @@
 		(uuid "b5b16b03-ecd2-4af2-a3ee-a9aeb7f98512")
 		(at 160.575 101.05)
 		(property "Reference" "G***"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "3aac5492-9d58-4086-b5cb-0a588fe7e6e6")
@@ -23225,7 +23225,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "a969d44e-b88e-453d-a711-a1e210cfe35a")
