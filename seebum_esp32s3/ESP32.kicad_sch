@@ -4947,7 +4947,7 @@
 		(uuid "2fc50e5c-407e-4c39-afaa-7fdc48354be4")
 	)
 	(junction
-		(at 181.61 54.61)
+		(at 261.62 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fc61a06-deff-473b-b5be-b51121d1c947")
@@ -5602,7 +5602,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 54.61) (xy 181.61 55.88)
+			(xy 261.62 45.72) (xy 261.62 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5752,7 +5752,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 55.88) (xy 182.88 55.88)
+			(xy 261.62 46.99) (xy 262.89 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5782,7 +5782,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 53.34) (xy 181.61 53.34)
+			(xy 262.89 44.45) (xy 261.62 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6092,7 +6092,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 54.61) (xy 181.61 54.61)
+			(xy 260.35 45.72) (xy 261.62 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7032,7 +7032,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 53.34) (xy 181.61 54.61)
+			(xy 261.62 44.45) (xy 261.62 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7719,6 +7719,17 @@
 		)
 		(uuid "18b9bc83-00b5-4394-a0ca-1f32b76c70b4")
 	)
+	(label "GPIO18"
+		(at 181.61 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18f2eeca-bc90-4403-962a-57cd1eaefe9d")
+	)
 	(label "PWME2"
 		(at 238.76 34.29 0)
 		(fields_autoplaced yes)
@@ -8302,17 +8313,6 @@
 		)
 		(uuid "8dff9255-735c-4cb6-8e12-bde92b850ec5")
 	)
-	(label "GPIO10"
-		(at 181.61 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8e37cbf1-dc76-4164-abca-077b35d738be")
-	)
 	(label "GPIO38"
 		(at 115.57 88.9 0)
 		(fields_autoplaced yes)
@@ -8610,6 +8610,17 @@
 		)
 		(uuid "ca11f218-d2c0-4491-9f2a-04b9f5ed747e")
 	)
+	(label "GPIO17"
+		(at 181.61 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "caf59308-51f7-4239-bdb5-87825de2468b")
+	)
 	(label "GPIO42"
 		(at 24.13 50.8 180)
 		(fields_autoplaced yes)
@@ -8820,7 +8831,7 @@
 		(uuid "de045b1b-3542-45a9-b6df-29109f5df7f4")
 	)
 	(label "GPIO9"
-		(at 190.5 53.34 0)
+		(at 270.51 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8884,17 +8895,6 @@
 			(justify left bottom)
 		)
 		(uuid "e41818ad-73b9-4e20-ae57-3fee90a1ac43")
-	)
-	(label "GPIO9"
-		(at 181.61 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e44544f9-6a85-436a-8f44-64db5000d547")
 	)
 	(label "GPIO1"
 		(at 209.55 48.26 180)
@@ -8996,7 +8996,7 @@
 		(uuid "ef6690c8-542d-4472-854f-0d03ff93d109")
 	)
 	(label "GPIO10"
-		(at 190.5 55.88 0)
+		(at 270.51 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15290,7 +15290,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 186.69 55.88 90)
+		(at 266.7 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15298,7 +15298,7 @@
 		(dnp no)
 		(uuid "d7083a0a-0d46-435a-bded-9dd987d6ffd5")
 		(property "Reference" "R211"
-			(at 189.23 58.42 90)
+			(at 269.24 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15307,7 +15307,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 187.96 55.88 90)
+			(at 267.97 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15316,7 +15316,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 186.69 57.658 90)
+			(at 266.7 48.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15325,7 +15325,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 55.88 0)
+			(at 266.7 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15334,7 +15334,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 55.88 0)
+			(at 266.7 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15343,7 +15343,7 @@
 			)
 		)
 		(property "LCSC" "C17673"
-			(at 186.69 55.88 90)
+			(at 266.7 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15917,7 +15917,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 180.34 54.61 90)
+		(at 260.35 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15926,7 +15926,7 @@
 		(fields_autoplaced yes)
 		(uuid "f713de96-fbca-4b4f-9ab3-2b4f7ae4dcb5")
 		(property "Reference" "#PWR0232"
-			(at 184.15 54.61 0)
+			(at 264.16 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15935,7 +15935,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 175.26 54.61 0)
+			(at 255.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15943,7 +15943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 54.61 0)
+			(at 260.35 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15952,7 +15952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 54.61 0)
+			(at 260.35 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15961,7 +15961,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 54.61 0)
+			(at 260.35 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16115,7 +16115,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 186.69 53.34 270)
+		(at 266.7 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16123,7 +16123,7 @@
 		(dnp no)
 		(uuid "fd639a6e-e72e-4faf-91e2-b2c20569bc7c")
 		(property "Reference" "R212"
-			(at 184.15 50.8 90)
+			(at 264.16 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16132,7 +16132,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 185.42 53.34 90)
+			(at 265.43 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16141,7 +16141,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 186.69 51.562 90)
+			(at 266.7 42.672 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16150,7 +16150,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 53.34 0)
+			(at 266.7 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16159,7 +16159,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 53.34 0)
+			(at 266.7 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16168,7 +16168,7 @@
 			)
 		)
 		(property "LCSC" "C17673"
-			(at 186.69 53.34 90)
+			(at 266.7 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)

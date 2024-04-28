@@ -1729,16 +1729,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 58.42) (xy 179.07 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "669fe8a1-76f7-415d-abac-b9b19ffe8f6f")
-	)
-	(wire
-		(pts
 			(xy 105.41 124.46) (xy 105.41 125.73)
 		)
 		(stroke
@@ -1766,16 +1756,6 @@
 			(type default)
 		)
 		(uuid "a1016046-3102-4c82-940c-6fb94706256c")
-	)
-	(wire
-		(pts
-			(xy 171.45 57.15) (xy 179.07 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fae405b7-df3e-414f-9283-3d333c35f3fb")
 	)
 	(rectangle
 		(start 74.93 101.854)
@@ -2537,6 +2517,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 175.26 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a9d308a-d295-4e01-ba35-63e6cec7540d")
+		(property "Reference" "JP104"
+			(at 176.5301 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 181.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 175.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb0d8778-d0eb-4c3f-b2e1-239569eca1df")
+		)
+		(pin "2"
+			(uuid "84ca9aa7-6476-4301-b2c4-c2c2499ff326")
+		)
+		(instances
+			(project "seebum_esp32s3"
+				(path "/4eaa6483-1d2f-48d6-89f0-93b42e27355e"
+					(reference "JP104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 160.02 120.65 270)
 		(unit 1)
@@ -2664,6 +2715,77 @@
 			(project "seebum_esp32s3"
 				(path "/4eaa6483-1d2f-48d6-89f0-93b42e27355e"
 					(reference "H104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 175.26 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2ce1dc3-f812-47ca-9d7a-1a8469b8388e")
+		(property "Reference" "JP103"
+			(at 176.5301 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 181.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 175.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eddff99e-212f-4a2c-af83-74c61a8b9988")
+		)
+		(pin "2"
+			(uuid "475bceca-d24b-4f2a-b96e-415020bafabd")
+		)
+		(instances
+			(project "seebum_esp32s3"
+				(path "/4eaa6483-1d2f-48d6-89f0-93b42e27355e"
+					(reference "JP103")
 					(unit 1)
 				)
 			)
@@ -3206,7 +3328,7 @@
 			(uuid "0049a31e-2182-40f8-b3ca-15ec8fd35a96")
 		)
 		(pin "U1RXD" input
-			(at 171.45 58.42 0)
+			(at 171.45 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3294,7 +3416,7 @@
 			(uuid "6e9d42bf-adcb-4c65-bfb6-9b056371201a")
 		)
 		(pin "U1TXD" input
-			(at 179.07 58.42 180)
+			(at 179.07 60.96 180)
 			(effects
 				(font
 					(size 1.27 1.27)
