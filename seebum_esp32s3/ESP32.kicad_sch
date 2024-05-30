@@ -4935,6 +4935,12 @@
 		(uuid "0c7982d8-a854-4597-8abd-733cc060629d")
 	)
 	(junction
+		(at 130.81 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2db29cf8-0382-4073-965c-7f0404f773a5")
+	)
+	(junction
 		(at 257.81 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5157,6 +5163,12 @@
 		(uuid "da679634-a8f5-4c78-8f1f-1073607f8790")
 	)
 	(junction
+		(at 130.81 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e24c1ff3-f8ea-4aac-8211-a9fbf029328a")
+	)
+	(junction
 		(at 148.59 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5207,10 +5219,6 @@
 	(no_connect
 		(at 143.51 125.73)
 		(uuid "d71ace88-97fb-4fbf-b66f-9f80705f389e")
-	)
-	(no_connect
-		(at 115.57 43.18)
-		(uuid "e39c1f3c-4790-4790-8b76-e5dbe0d507c4")
 	)
 	(no_connect
 		(at 209.55 146.05)
@@ -5479,6 +5487,16 @@
 			(type default)
 		)
 		(uuid "1db86e66-5d8c-4464-ac88-697e54f8e2f5")
+	)
+	(wire
+		(pts
+			(xy 130.81 129.54) (xy 130.81 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212260bb-f69d-43c1-8729-c0bd725625fa")
 	)
 	(wire
 		(pts
@@ -6022,7 +6040,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 134.62) (xy 132.08 134.62)
+			(xy 127 134.62) (xy 130.81 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6072,6 +6090,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 134.62) (xy 130.81 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf797e0-100e-4f67-9bc3-6521ab4c5708")
+	)
+	(wire
+		(pts
 			(xy 260.35 132.08) (xy 260.35 134.62)
 		)
 		(stroke
@@ -6099,6 +6127,16 @@
 			(type default)
 		)
 		(uuid "7247527e-754d-46e9-9d8d-ec802856e8c3")
+	)
+	(wire
+		(pts
+			(xy 130.81 139.7) (xy 132.08 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "726e5d4f-f77f-48a8-bfd2-cdbfe4aaa8a3")
 	)
 	(wire
 		(pts
@@ -6272,7 +6310,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 139.7) (xy 132.08 139.7)
+			(xy 127 139.7) (xy 130.81 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6929,6 +6967,16 @@
 			(type default)
 		)
 		(uuid "dccb8ce8-546b-40e5-a8b9-b2c0414fa4cd")
+	)
+	(wire
+		(pts
+			(xy 130.81 134.62) (xy 132.08 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd3e4ac-811c-4fe9-a202-b58d9144383d")
 	)
 	(wire
 		(pts
@@ -7972,7 +8020,7 @@
 		)
 		(uuid "4d2b5d79-4421-466e-b024-eb1bbbcbb2b2")
 	)
-	(label "U0RXD"
+	(label "U0TXD"
 		(at 113.03 153.67 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8313,6 +8361,17 @@
 		)
 		(uuid "8dff9255-735c-4cb6-8e12-bde92b850ec5")
 	)
+	(label "GPIO0"
+		(at 115.57 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e02ef05-2f82-43c5-8054-8f00445d0884")
+	)
 	(label "GPIO38"
 		(at 115.57 88.9 0)
 		(fields_autoplaced yes)
@@ -8390,7 +8449,7 @@
 		)
 		(uuid "9eaa8e8c-34a7-4427-92d7-dc4fe66cc6e3")
 	)
-	(label "U0TXD"
+	(label "U0RXD"
 		(at 113.03 147.32 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11797,6 +11856,72 @@
 			(project "seebum_esp32s3"
 				(path "/4eaa6483-1d2f-48d6-89f0-93b42e27355e/995310a1-b122-49d8-8098-d1cf0e8f38bd"
 					(reference "D209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 130.81 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61e51887-0469-4426-9d08-6c9de2584337")
+		(property "Reference" "#PWR0236"
+			(at 130.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 130.81 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 130.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e69addf-f802-4aa6-8f74-b985455242a8")
+		)
+		(instances
+			(project "seebum_esp32s3"
+				(path "/4eaa6483-1d2f-48d6-89f0-93b42e27355e/995310a1-b122-49d8-8098-d1cf0e8f38bd"
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
